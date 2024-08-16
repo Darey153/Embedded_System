@@ -1,5 +1,3 @@
-//OLUWADAMILARE AJAYI
-//ECET311 #LAB
 #define F_CPU 16000000L
 #include <avr/io.h>
 #include <util/delay.h>
@@ -29,3 +27,9 @@ int main(void)
     }
   }
 }
+/*Using an Arduino UNO or Arduino Nano, a breadboard, an LED, and two switches, write a program that produces the functionality described below.
+
+You may not use Arduino functions like pinMode, digitalWrite, digitalRead, etc...
+
+If switch one is pressed, the LED will blink fast 5 times (on for 200 milliseconds and off for 200 milliseconds).
+If switch two is pressed, the LED will blink slow 5 times (on for 600 milliseconds and off for 600 milliseconds).*/
