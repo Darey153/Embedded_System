@@ -1,3 +1,18 @@
+/*
+Using an Arduino UNO or Arduino Nano, a breadboard, a single digit 7-Segment LED Display, write a program in that will produce the functionality described below.
+You may not use Arduino functions like pinMode, digitalWrite, digitalRead, etc...
+Count on the 7-segment display from 0 to 9 and repeat continuously
+Remember to used limiting resistors for each LED segment
+Consider developing the functionality as a function with a single input of type char or int.
+Use the following IO pins for the display segments
+PC0 = Segment A
+PC1 = Segment B
+PC2 = Segment C
+PC3 = Segment D
+PC4 = Segment E
+PC5 = Segment F
+PB5 = Segment G
+*/
 #define F-_CPU 16000000L
 #include <avr/io.h>
 #include <util/delay.h>
